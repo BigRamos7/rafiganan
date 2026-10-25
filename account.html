@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>אזור אישי | רפי הגנן</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700;800&family=Frank+Ruhl+Libre:wght@500;700;900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --green-900:#12301f; --green-800:#1b4430; --green-700:#24583d; --green-500:#3f8a5a;
+    --green-300:#a9d4a2; --green-100:#e7f2e2; --sand:#f7f3ea; --sun:#f2c14e;
+    --ink:#1d2a22; --muted:#5d6b62; --radius:20px; --shadow:0 18px 40px -18px rgba(18,48,31,.35);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Heebo',system-ui,sans-serif;color:var(--ink);background:var(--sand);line-height:1.7;min-height:100vh}
+  a{color:inherit;text-decoration:none}
+  .wrap{width:min(1000px,100% - 32px);margin-inline:auto}
+  h1,h2,h3{font-family:'Frank Ruhl Libre',serif;line-height:1.15;color:var(--green-900)}
+  header{background:var(--green-900)}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:72px}
+  .logo{display:flex;align-items:center;gap:10px;color:#fff;font-family:'Frank Ruhl Libre',serif;font-size:1.5rem;font-weight:900}
+  .logo-mark{width:40px;height:40px;border-radius:12px;background:var(--sun);display:grid;place-items:center}
+  .logo-mark svg{width:24px;height:24px}
+  .back{color:rgba(255,255,255,.85);font-weight:500}
+  .back:hover{color:var(--sun)}
+  main{padding:56px 0 80px}
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:12px;font:inherit;font-weight:700;padding:14px 24px;border-radius:999px;border:0;cursor:pointer;transition:transform .2s,box-shadow .2s}
+  .btn:hover{transform:translateY(-2px)}
+  .btn svg{width:22px;height:22px;flex:none}
+  .btn-google{background:#fff;color:#1f1f1f;border:1.5px solid #dadce0}
+  .btn-github{background:#1f2328;color:#fff}
+  .btn-green{background:var(--green-700);color:#fff}
+  .btn-ghost{background:transparent;color:var(--green-700);border:1.5px solid var(--green-300)}
+
+  .login-card{max-width:440px;margin:0 auto;background:#fff;border-radius:28px;padding:44px 32px;text-align:center;box-shadow:var(--shadow)}
+  .login-card .em{font-size:2.6rem}
+  .login-card h1{font-size:2rem;margin:8px 0}
+  .login-card p{color:var(--muted);margin-bottom:28px}
+  .login-card .btn{width:100%;margin-bottom:12px}
+  .login-card small{display:block;color:var(--muted);margin-top:14px;font-size:.85rem}
+
+  .hello{display:flex;align-items:center;gap:18px;margin-bottom:34px;flex-wrap:wrap}
+  .hello img{width:72px;height:72px;border-radius:50%;border:3px solid #fff;box-shadow:var(--shadow);object-fit:cover;background:var(--green-100)}
+  .hello h1{font-size:clamp(1.8rem,4vw,2.4rem)}
+  .hello p{color:var(--muted)}
+  .hello .btn{margin-inline-start:auto;padding:10px 20px}
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+  .panel{background:#fff;border-radius:var(--radius);padding:26px 24px;border:1px solid rgba(18,48,31,.07)}
+  .panel .ic{font-size:1.8rem}
+  .panel h2{font-size:1.35rem;margin:6px 0 8px}
+  .panel p{color:var(--muted);font-size:.98rem}
+  .panel dl{display:grid;gap:4px;font-size:.95rem}
+  .panel dt{color:var(--muted);font-size:.82rem;margin-top:6px}
+  .panel dd{font-weight:500;word-break:break-all}
+  .panel .btn{margin-top:16px;padding:10px 18px;font-size:.95rem}
+  .soon{display:inline-block;margin-top:14px;font-size:.82rem;font-weight:700;color:var(--green-500);background:var(--green-100);padding:4px 12px;border-radius:999px}
+  @media (max-width:860px){.grid{grid-template-columns:1fr}}
+  .loading{text-align:center;color:var(--muted);padding:80px 0}
+  [hidden]{display:none!important}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a href="/" class="logo">
+      <span class="logo-mark"><svg viewBox="0 0 24 24" fill="none" stroke="#12301f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg></span>
+      רפי הגנן
+    </a>
+    <a href="/" class="back">→ חזרה לאתר</a>
+  </div>
+</header>
+
+<main class="wrap">
+  <div id="loading" class="loading">טוען…</div>
+
+  <section id="login" class="login-card" hidden>
+    <div class="em">🌱</div>
+    <h1>כניסה לאזור האישי</h1>
+    <p>התחברו כדי לראות את הדוחות, הפרטים והעדכונים שלכם.</p>
+    <a class="btn btn-google" href="/api/auth/login/google">
+      <svg viewBox="0 0 48 48"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.4-.4-3.5z"/><path fill="#FF3D00" d="m6.3 14.7 6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-8l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.4-.4-3.5z"/></svg>
+      כניסה עם Google
+    </a>
+    <a class="btn btn-github" href="/api/auth/login/github">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.7 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A11.5 11.5 0 0 0 23.5 12C23.5 5.7 18.3.5 12 .5z"/></svg>
+      כניסה עם GitHub
+    </a>
+    <small>אנחנו משתמשים רק בשם, באימייל ובתמונת הפרופיל שלכם.</small>
+  </section>
+
+  <section id="area" hidden>
+    <div class="hello">
+      <img id="u-avatar" alt="" referrerpolicy="no-referrer">
+      <div>
+        <h1>שלום, <span id="u-name"></span> 🌿</h1>
+        <p>ברוכים הבאים לאזור האישי שלכם.</p>
+      </div>
+      <a class="btn btn-ghost" href="/api/auth/logout">יציאה</a>
+    </div>
+    <div class="grid">
+      <div class="panel">
+        <div class="ic">📈</div>
+        <h2>הדוחות שלי</h2>
+        <p>כאן יופיעו הדוחות החודשיים: דירוגים, תנועה ופניות מגוגל.</p>
+        <span class="soon">עדיין אין דוחות</span>
+      </div>
+      <div class="panel">
+        <div class="ic">👤</div>
+        <h2>הפרטים שלי</h2>
+        <dl>
+          <dt>שם</dt><dd id="u-name2"></dd>
+          <dt>אימייל</dt><dd id="u-email" dir="ltr" style="text-align:right"></dd>
+          <dt>מחובר דרך</dt><dd id="u-provider"></dd>
+        </dl>
+      </div>
+      <div class="panel">
+        <div class="ic">💬</div>
+        <h2>דברו עם רפי</h2>
+        <p>שאלה על הקידום, בקשה חדשה או עדכון? שלחו הודעה ישירה.</p>
+        <a id="wa" class="btn btn-green" target="_blank" rel="noopener">שליחה בווטסאפ</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script>
+  const WA = '972521234567';
+  const $ = id => document.getElementById(id);
+  fetch('/api/auth/me', {cache:'no-store', credentials:'same-origin'})
+    .then(r => r.ok ? r.json() : {user:null})
+    .catch(() => ({user:null}))
+    .then(({user}) => {
+      $('loading').hidden = true;
+      if (!user) { $('login').hidden = false; return; }
+      $('area').hidden = false;
+      $('u-name').textContent = (user.name || '').split(' ')[0];
+      $('u-name2').textContent = user.name || '—';
+      $('u-email').textContent = user.email || '—';
+      $('u-provider').textContent = user.provider === 'google' ? 'Google' : 'GitHub';
+      if (user.avatar) $('u-avatar').src = user.avatar; else $('u-avatar').hidden = true;
+      const text = `שלום רפי, זה ${user.name || ''}${user.email ? ' (' + user.email + ')' : ''} מהאזור האישי 🌿`;
+      $('wa').href = `https://wa.me/${WA}?text=${encodeURIComponent(text)}`;
+    });
+</script>
+</body>
+</html>

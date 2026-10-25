@@ -45,6 +45,10 @@
   .nav ul{display:flex;gap:28px;list-style:none;color:rgba(255,255,255,.9);font-weight:500}
   .nav ul a:hover{color:var(--sun)}
   .nav .btn{padding:10px 20px}
+  .nav-actions{display:flex;align-items:center;gap:16px}
+  .account-link{display:flex;align-items:center;gap:8px;color:#fff;font-weight:500}
+  .account-link:hover{color:var(--sun)}
+  .account-link img{width:30px;height:30px;border-radius:50%;object-fit:cover;border:2px solid rgba(255,255,255,.6)}
   @media (max-width:820px){.nav ul{display:none}}
 
   /* hero */
@@ -181,7 +185,13 @@
       <li><a href="#process">איך זה עובד</a></li>
       <li><a href="#faq">שאלות</a></li>
     </ul>
-    <a href="#contact" class="btn btn-primary">הצעת מחיר</a>
+    <div class="nav-actions">
+      <a href="/account.html" class="account-link" id="account-link">
+        <img id="account-avatar" alt="" referrerpolicy="no-referrer" hidden>
+        <span id="account-label">כניסה</span>
+      </a>
+      <a href="#contact" class="btn btn-primary">הצעת מחיר</a>
+    </div>
   </div>
 </header>
 
@@ -426,7 +436,16 @@
   addEventListener('scroll', onScroll, {passive:true}); onScroll();
   const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), {threshold:.12});
   document.querySelectorAll('.reveal').forEach(el => io.observe(el));
-  const rndBtn = document.getElementById('rnd-btn'), rndOut = document.getElementById('rnd-out');
+  fetch('/api/auth/me', {cache:'no-store', credentials:'same-origin'})
+    .then(r => r.ok ? r.json() : null)
+    .then(d => {
+      if (!d || !d.user) return;
+      document.getElementById('account-label').textContent = (d.user.name || 'אזור אישי').split(' ')[0];
+      const img = document.getElementById('account-avatar');
+      if (d.user.avatar) { img.src = d.user.avatar; img.hidden = false; }
+    })
+    .catch(() => {});
+  const rndBtn =document.getElementById('rnd-btn'), rndOut = document.getElementById('rnd-out');
   rndBtn.addEventListener('click', async () => {
     rndBtn.disabled = true; rndOut.textContent = '…';
     try {
