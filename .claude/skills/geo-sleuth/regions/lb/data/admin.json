@@ -1,0 +1,365 @@
+{
+ "_meta": {
+  "source": [
+   "https://en.wikipedia.org/wiki/Governorates_of_Lebanon",
+   "https://en.wikipedia.org/wiki/Districts_of_Lebanon",
+   "Arabic names: the ar.wikipedia interlanguage links of those articles"
+  ],
+  "fetched": "2026-11-08",
+  "license": "Derived from Wikipedia, CC BY-SA 4.0",
+  "count": 34
+ },
+ "items": [
+  {
+   "name": "Akkar",
+   "code": "LB-AK",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "محافظة عكار",
+    "Akkar Governorate"
+   ]
+  },
+  {
+   "name": "Baalbek-Hermel",
+   "code": "LB-BH",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "محافظة بعلبك الهرمل",
+    "Baalbek-Hermel Governorate"
+   ]
+  },
+  {
+   "name": "Beirut",
+   "code": "LB-BA",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "محافظة بيروت",
+    "Beirut Governorate"
+   ]
+  },
+  {
+   "name": "Beqaa",
+   "code": "LB-BI",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "محافظة البقاع",
+    "Beqaa Governorate"
+   ]
+  },
+  {
+   "name": "Keserwan-Jbeil",
+   "code": "",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "محافظة كسروان جبيل",
+    "Keserwan-Jbeil Governorate"
+   ]
+  },
+  {
+   "name": "Mount Lebanon",
+   "code": "LB-JL",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "محافظة جبل لبنان",
+    "Mount Lebanon Governorate"
+   ]
+  },
+  {
+   "name": "Nabatieh",
+   "code": "LB-NA",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "محافظة النبطية",
+    "Nabatieh Governorate"
+   ]
+  },
+  {
+   "name": "North",
+   "code": "LB-AS",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "محافظة الشمال",
+    "North Governorate"
+   ]
+  },
+  {
+   "name": "South",
+   "code": "LB-JA",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "محافظة الجنوب",
+    "South Governorate"
+   ]
+  },
+  {
+   "name": "Akkar District",
+   "code": "",
+   "level": 5,
+   "parent": "Akkar",
+   "aliases": [
+    "قضاء عكار"
+   ]
+  },
+  {
+   "name": "Baalbek",
+   "code": "",
+   "level": 5,
+   "parent": "Baalbek-Hermel",
+   "aliases": [
+    "قضاء بعلبك",
+    "Baalbek District"
+   ]
+  },
+  {
+   "name": "Hermel",
+   "code": "",
+   "level": 5,
+   "parent": "Baalbek-Hermel",
+   "aliases": [
+    "قضاء الهرمل",
+    "Hermel District"
+   ]
+  },
+  {
+   "name": "Rashaya",
+   "code": "",
+   "level": 5,
+   "parent": "Beqaa",
+   "aliases": [
+    "قضاء راشيا",
+    "Rashaya District"
+   ]
+  },
+  {
+   "name": "Western Beqaa",
+   "code": "",
+   "level": 5,
+   "parent": "Beqaa",
+   "aliases": [
+    "قضاء البقاع الغربي",
+    "Western Beqaa District",
+    "West Bekaa"
+   ]
+  },
+  {
+   "name": "Zahlé",
+   "code": "",
+   "level": 5,
+   "parent": "Beqaa",
+   "aliases": [
+    "قضاء زحلة",
+    "Zahlé District",
+    "Zahle",
+    "Zahleh"
+   ]
+  },
+  {
+   "name": "Byblos",
+   "code": "",
+   "level": 5,
+   "parent": "Keserwan-Jbeil",
+   "aliases": [
+    "قضاء جبيل",
+    "Byblos District",
+    "Jbeil"
+   ]
+  },
+  {
+   "name": "Keserwan",
+   "code": "",
+   "level": 5,
+   "parent": "Keserwan-Jbeil",
+   "aliases": [
+    "قضاء كسروان",
+    "Keserwan District",
+    "Kesrouan"
+   ]
+  },
+  {
+   "name": "Aley",
+   "code": "",
+   "level": 5,
+   "parent": "Mount Lebanon",
+   "aliases": [
+    "قضاء عاليه",
+    "Aley District"
+   ]
+  },
+  {
+   "name": "Baabda",
+   "code": "",
+   "level": 5,
+   "parent": "Mount Lebanon",
+   "aliases": [
+    "قضاء بعبدا",
+    "Baabda District"
+   ]
+  },
+  {
+   "name": "Chouf",
+   "code": "",
+   "level": 5,
+   "parent": "Mount Lebanon",
+   "aliases": [
+    "قضاء الشوف",
+    "Chouf District",
+    "Shouf"
+   ]
+  },
+  {
+   "name": "Matn",
+   "code": "",
+   "level": 5,
+   "parent": "Mount Lebanon",
+   "aliases": [
+    "قضاء المتن",
+    "Matn District",
+    "Metn"
+   ]
+  },
+  {
+   "name": "Bint Jbeil",
+   "code": "",
+   "level": 5,
+   "parent": "Nabatieh",
+   "aliases": [
+    "قضاء بنت جبيل",
+    "Bint Jbeil District"
+   ]
+  },
+  {
+   "name": "Hasbaya",
+   "code": "",
+   "level": 5,
+   "parent": "Nabatieh",
+   "aliases": [
+    "قضاء حاصبيا",
+    "Hasbaya District"
+   ]
+  },
+  {
+   "name": "Marjeyoun",
+   "code": "",
+   "level": 5,
+   "parent": "Nabatieh",
+   "aliases": [
+    "قضاء مرجعيون",
+    "Marjeyoun District",
+    "Marjayoun"
+   ]
+  },
+  {
+   "name": "Nabatieh District",
+   "code": "",
+   "level": 5,
+   "parent": "Nabatieh",
+   "aliases": [
+    "قضاء النبطية",
+    "Nabatiyeh District",
+    "Nabatiyeh"
+   ]
+  },
+  {
+   "name": "Batroun",
+   "code": "",
+   "level": 5,
+   "parent": "North",
+   "aliases": [
+    "قضاء البترون",
+    "Batroun District"
+   ]
+  },
+  {
+   "name": "Bsharri",
+   "code": "",
+   "level": 5,
+   "parent": "North",
+   "aliases": [
+    "قضاء بشري",
+    "Bsharri District",
+    "Bcharre"
+   ]
+  },
+  {
+   "name": "Koura",
+   "code": "",
+   "level": 5,
+   "parent": "North",
+   "aliases": [
+    "قضاء الكورة",
+    "Koura District"
+   ]
+  },
+  {
+   "name": "Miniyeh-Danniyeh",
+   "code": "",
+   "level": 5,
+   "parent": "North",
+   "aliases": [
+    "قضاء الضنية",
+    "Miniyeh-Danniyeh District"
+   ]
+  },
+  {
+   "name": "Tripoli",
+   "code": "",
+   "level": 5,
+   "parent": "North",
+   "aliases": [
+    "قضاء طرابلس",
+    "Tripoli District, Lebanon"
+   ]
+  },
+  {
+   "name": "Zgharta",
+   "code": "",
+   "level": 5,
+   "parent": "North",
+   "aliases": [
+    "قضاء زغرتا",
+    "Zgharta District"
+   ]
+  },
+  {
+   "name": "Sidon",
+   "code": "",
+   "level": 5,
+   "parent": "South",
+   "aliases": [
+    "قضاء صيدا",
+    "Sidon District",
+    "Saida"
+   ]
+  },
+  {
+   "name": "Jezzine",
+   "code": "",
+   "level": 5,
+   "parent": "South",
+   "aliases": [
+    "قضاء جزين",
+    "Jezzine District"
+   ]
+  },
+  {
+   "name": "Tyre",
+   "code": "",
+   "level": 5,
+   "parent": "South",
+   "aliases": [
+    "قضاء صور",
+    "Tyre District",
+    "Sour"
+   ]
+  }
+ ]
+}

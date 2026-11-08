@@ -1,0 +1,117 @@
+{
+ "_meta": {
+  "kind": "plate",
+  "normalize": {
+   "strip": " -·.",
+   "upper": true
+  },
+  "key_pattern": "^\\d{2}(?=[A-Z]?\\d{0,6}$)",
+  "usage": "the two-digit governorate code at the start of a current plate (11 A 12345) or just the code; old plates (before 2022 in Kurdistan, 2024 elsewhere) write the governorate name in Arabic instead: use `clues.py lookup admin <name>`",
+  "note": "The code is where the vehicle was registered, not where the photo was taken. Codes 21–24 also show KR on the band.",
+  "miss_note": "not 11–29: misread digits, an old plate with the governorate name instead of a code, or a foreign plate",
+  "source": [
+   "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Iraq",
+   "https://ninanews.com/Website/News/Details?key=977300 (new governorate codes, 20 May 2022, cited by that article)"
+  ],
+  "license": "Derived from Wikipedia, CC BY-SA 4.0",
+  "count": 19,
+  "fetched": "2026-11-08"
+ },
+ "entries": {
+  "11": [
+   {
+    "admin1": "Baghdad"
+   }
+  ],
+  "12": [
+   {
+    "admin1": "Nineveh"
+   }
+  ],
+  "13": [
+   {
+    "admin1": "Maysan"
+   }
+  ],
+  "14": [
+   {
+    "admin1": "Basra"
+   }
+  ],
+  "15": [
+   {
+    "admin1": "Al Anbar"
+   }
+  ],
+  "16": [
+   {
+    "admin1": "Al-Qadisiyyah"
+   }
+  ],
+  "17": [
+   {
+    "admin1": "Muthanna"
+   }
+  ],
+  "18": [
+   {
+    "admin1": "Babil"
+   }
+  ],
+  "19": [
+   {
+    "admin1": "Karbala"
+   }
+  ],
+  "20": [
+   {
+    "admin1": "Diyala"
+   }
+  ],
+  "21": [
+   {
+    "admin1": "Sulaymaniyah"
+   }
+  ],
+  "22": [
+   {
+    "admin1": "Erbil"
+   }
+  ],
+  "23": [
+   {
+    "admin1": "Halabja"
+   }
+  ],
+  "24": [
+   {
+    "admin1": "Duhok"
+   }
+  ],
+  "25": [
+   {
+    "admin1": "Kirkuk"
+   }
+  ],
+  "26": [
+   {
+    "admin1": "Saladin"
+   }
+  ],
+  "27": [
+   {
+    "admin1": "Dhi Qar"
+   }
+  ],
+  "28": [
+   {
+    "admin1": "Najaf"
+   }
+  ],
+  "29": [
+   {
+    "admin1": "Wasit"
+   }
+  ]
+ }
+}

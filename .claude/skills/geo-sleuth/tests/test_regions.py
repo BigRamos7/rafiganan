@@ -78,7 +78,7 @@ class BundledPacks(unittest.TestCase):
     def test_cn_lookups_keep_their_answers(self):
         m = regions.lookup("plate", "粤B·12345", "cn")["matches"]
         self.assertEqual([(x["admin1"], x.get("admin2")) for x in m], [("广东省", "深圳市")])
-        m = regions.lookup("area-code", "0817-1234567")["matches"]
+        m = [x for x in regions.lookup("area-code", "0817-1234567")["matches"] if x["country_code"] == "CN"]   # IR 081 also fits
         self.assertEqual([(x["country_code"], x["admin2"]) for x in m], [("CN", "南充市")])
 
     def test_descriptions_are_not_places(self):

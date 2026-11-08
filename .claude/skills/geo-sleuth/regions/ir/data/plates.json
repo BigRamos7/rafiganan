@@ -1,0 +1,999 @@
+{
+ "_meta": {
+  "kind": "plate",
+  "normalize": {
+   "strip": " -·.",
+   "upper": true
+  },
+  "key_pattern": "^\\d{2}$",
+  "usage": "only the two-digit provincial code in the box on the right of the plate, under 'ایران' (Persian ۶۳ or Western 63)",
+  "note": "The code is where the vehicle was registered, not where the photo was taken. A province gets a new code only when the old one is exhausted, so one province has several codes.",
+  "miss_note": "not an allocated provincial code: misread digit (Persian ۲/۳ and ۴/۶ are easy to confuse at a distance), a free-trade-zone plate (Kish, Anzali, Aras, Arvand, Maku, Chabahar: no box), or a new code issued after the source was written",
+  "source": [
+   "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Iran (section 'Provincial codes')"
+  ],
+  "license": "Derived from Wikipedia, CC BY-SA 4.0",
+  "count": 172,
+  "fetched": "2026-11-08"
+ },
+ "entries": {
+  "10": [
+   {
+    "admin1": "Tehran",
+    "note": "Tehran city"
+   }
+  ],
+  "11": [
+   {
+    "admin1": "Tehran",
+    "note": "Tehran city"
+   }
+  ],
+  "12": [
+   {
+    "admin1": "Razavi Khorasan"
+   }
+  ],
+  "13": [
+   {
+    "admin1": "Isfahan"
+   }
+  ],
+  "14": [
+   {
+    "admin1": "Khuzestan"
+   }
+  ],
+  "15": [
+   {
+    "admin1": "East Azerbaijan"
+   }
+  ],
+  "16": [
+   {
+    "admin1": "Qom"
+   }
+  ],
+  "17": [
+   {
+    "admin1": "West Azerbaijan"
+   }
+  ],
+  "18": [
+   {
+    "admin1": "Hamadan"
+   }
+  ],
+  "19": [
+   {
+    "admin1": "Kermanshah"
+   }
+  ],
+  "20": [
+   {
+    "admin1": "Tehran",
+    "note": "Tehran city"
+   }
+  ],
+  "21": [
+   {
+    "admin1": "Tehran",
+    "note": "Tehran province outside Tehran city (shared with Alborz)"
+   },
+   {
+    "admin1": "Alborz",
+    "note": "shared with Tehran province; Alborz split off in 2010"
+   }
+  ],
+  "22": [
+   {
+    "admin1": "Tehran",
+    "note": "Tehran city"
+   }
+  ],
+  "23": [
+   {
+    "admin1": "Isfahan"
+   }
+  ],
+  "24": [
+   {
+    "admin1": "Khuzestan"
+   }
+  ],
+  "25": [
+   {
+    "admin1": "East Azerbaijan"
+   }
+  ],
+  "26": [
+   {
+    "admin1": "North Khorasan"
+   }
+  ],
+  "27": [
+   {
+    "admin1": "West Azerbaijan"
+   }
+  ],
+  "28": [
+   {
+    "admin1": "Hamadan"
+   }
+  ],
+  "29": [
+   {
+    "admin1": "Kermanshah"
+   }
+  ],
+  "30": [
+   {
+    "admin1": "Tehran",
+    "note": "Tehran province outside Tehran city (shared with Alborz)"
+   },
+   {
+    "admin1": "Alborz",
+    "note": "shared with Tehran province; Alborz split off in 2010"
+   }
+  ],
+  "31": [
+   {
+    "admin1": "Lorestan"
+   }
+  ],
+  "32": [
+   {
+    "admin1": "Razavi Khorasan"
+   },
+   {
+    "admin1": "North Khorasan",
+    "note": "only Bojnurd's original letter series (pre-2004 Khorasan codes)"
+   },
+   {
+    "admin1": "South Khorasan",
+    "note": "only Birjand's original letter series (pre-2004 Khorasan codes)"
+   }
+  ],
+  "33": [
+   {
+    "admin1": "Tehran",
+    "note": "Tehran city"
+   }
+  ],
+  "34": [
+   {
+    "admin1": "Khuzestan"
+   }
+  ],
+  "35": [
+   {
+    "admin1": "East Azerbaijan"
+   }
+  ],
+  "36": [
+   {
+    "admin1": "Razavi Khorasan"
+   }
+  ],
+  "37": [
+   {
+    "admin1": "West Azerbaijan"
+   }
+  ],
+  "38": [
+   {
+    "admin1": "Tehran",
+    "note": "Tehran province outside Tehran city (shared with Alborz)"
+   },
+   {
+    "admin1": "Alborz",
+    "note": "shared with Tehran province; Alborz split off in 2010"
+   }
+  ],
+  "40": [
+   {
+    "admin1": "Tehran",
+    "note": "Tehran city"
+   }
+  ],
+  "41": [
+   {
+    "admin1": "Lorestan"
+   }
+  ],
+  "42": [
+   {
+    "admin1": "Razavi Khorasan"
+   },
+   {
+    "admin1": "North Khorasan",
+    "note": "only Bojnurd's original letter series (pre-2004 Khorasan codes)"
+   },
+   {
+    "admin1": "South Khorasan",
+    "note": "only Birjand's original letter series (pre-2004 Khorasan codes)"
+   }
+  ],
+  "43": [
+   {
+    "admin1": "Isfahan"
+   }
+  ],
+  "44": [
+   {
+    "admin1": "Tehran",
+    "note": "Tehran city"
+   }
+  ],
+  "45": [
+   {
+    "admin1": "Kerman"
+   }
+  ],
+  "46": [
+   {
+    "admin1": "Gilan"
+   }
+  ],
+  "47": [
+   {
+    "admin1": "Markazi"
+   }
+  ],
+  "48": [
+   {
+    "admin1": "Bushehr"
+   }
+  ],
+  "49": [
+   {
+    "admin1": "Kohgiluyeh and Boyer-Ahmad"
+   }
+  ],
+  "50": [
+   {
+    "admin1": "Tehran",
+    "note": "Tehran city"
+   }
+  ],
+  "51": [
+   {
+    "admin1": "Kurdistan"
+   }
+  ],
+  "52": [
+   {
+    "admin1": "South Khorasan"
+   }
+  ],
+  "53": [
+   {
+    "admin1": "Isfahan"
+   }
+  ],
+  "54": [
+   {
+    "admin1": "Yazd"
+   }
+  ],
+  "55": [
+   {
+    "admin1": "Tehran",
+    "note": "Tehran city"
+   }
+  ],
+  "56": [
+   {
+    "admin1": "Gilan"
+   }
+  ],
+  "57": [
+   {
+    "admin1": "Markazi"
+   }
+  ],
+  "58": [
+   {
+    "admin1": "Bushehr"
+   }
+  ],
+  "59": [
+   {
+    "admin1": "Golestan"
+   }
+  ],
+  "60": [
+   {
+    "admin1": "Tehran",
+    "note": "Tehran city"
+   }
+  ],
+  "61": [
+   {
+    "admin1": "Kurdistan"
+   }
+  ],
+  "62": [
+   {
+    "admin1": "Mazandaran"
+   }
+  ],
+  "63": [
+   {
+    "admin1": "Fars"
+   }
+  ],
+  "64": [
+   {
+    "admin1": "South Khorasan",
+    "note": "only Tabas County, letter ق, kept from its time in Yazd"
+   },
+   {
+    "admin1": "Yazd"
+   }
+  ],
+  "65": [
+   {
+    "admin1": "Kerman"
+   }
+  ],
+  "66": [
+   {
+    "admin1": "Tehran",
+    "note": "Tehran city"
+   }
+  ],
+  "67": [
+   {
+    "admin1": "Isfahan"
+   }
+  ],
+  "68": [
+   {
+    "admin1": "Tehran",
+    "note": "Tehran province outside Tehran city (shared with Alborz)"
+   },
+   {
+    "admin1": "Alborz",
+    "note": "shared with Tehran province; Alborz split off in 2010"
+   }
+  ],
+  "69": [
+   {
+    "admin1": "Golestan"
+   }
+  ],
+  "71": [
+   {
+    "admin1": "Chaharmahal and Bakhtiari"
+   }
+  ],
+  "72": [
+   {
+    "admin1": "Mazandaran"
+   }
+  ],
+  "73": [
+   {
+    "admin1": "Fars"
+   }
+  ],
+  "74": [
+   {
+    "admin1": "Razavi Khorasan"
+   }
+  ],
+  "75": [
+   {
+    "admin1": "Kerman"
+   }
+  ],
+  "76": [
+   {
+    "admin1": "Gilan"
+   }
+  ],
+  "77": [
+   {
+    "admin1": "Tehran",
+    "note": "Tehran city"
+   }
+  ],
+  "78": [
+   {
+    "admin1": "Tehran",
+    "note": "Tehran province outside Tehran city (shared with Alborz)"
+   },
+   {
+    "admin1": "Alborz",
+    "note": "shared with Tehran province; Alborz split off in 2010"
+   }
+  ],
+  "79": [
+   {
+    "admin1": "Qazvin"
+   }
+  ],
+  "81": [
+   {
+    "admin1": "Chaharmahal and Bakhtiari"
+   }
+  ],
+  "82": [
+   {
+    "admin1": "Mazandaran"
+   }
+  ],
+  "83": [
+   {
+    "admin1": "Fars"
+   }
+  ],
+  "84": [
+   {
+    "admin1": "Hormozgan"
+   }
+  ],
+  "85": [
+   {
+    "admin1": "Sistan and Baluchestan"
+   }
+  ],
+  "86": [
+   {
+    "admin1": "Semnan"
+   }
+  ],
+  "87": [
+   {
+    "admin1": "Zanjan"
+   }
+  ],
+  "88": [
+   {
+    "admin1": "Tehran",
+    "note": "Tehran city"
+   }
+  ],
+  "89": [
+   {
+    "admin1": "Qazvin"
+   }
+  ],
+  "91": [
+   {
+    "admin1": "Ardabil"
+   }
+  ],
+  "92": [
+   {
+    "admin1": "Mazandaran"
+   }
+  ],
+  "93": [
+   {
+    "admin1": "Fars"
+   }
+  ],
+  "94": [
+   {
+    "admin1": "Hormozgan"
+   }
+  ],
+  "95": [
+   {
+    "admin1": "Sistan and Baluchestan"
+   }
+  ],
+  "96": [
+   {
+    "admin1": "Semnan"
+   }
+  ],
+  "97": [
+   {
+    "admin1": "Zanjan"
+   }
+  ],
+  "98": [
+   {
+    "admin1": "Ilam"
+   }
+  ],
+  "99": [
+   {
+    "admin1": "Tehran",
+    "note": "Tehran city"
+   }
+  ],
+  "۱۰": [
+   {
+    "admin1": "Tehran",
+    "note": "Tehran city"
+   }
+  ],
+  "۱۱": [
+   {
+    "admin1": "Tehran",
+    "note": "Tehran city"
+   }
+  ],
+  "۱۲": [
+   {
+    "admin1": "Razavi Khorasan"
+   }
+  ],
+  "۱۳": [
+   {
+    "admin1": "Isfahan"
+   }
+  ],
+  "۱۴": [
+   {
+    "admin1": "Khuzestan"
+   }
+  ],
+  "۱۵": [
+   {
+    "admin1": "East Azerbaijan"
+   }
+  ],
+  "۱۶": [
+   {
+    "admin1": "Qom"
+   }
+  ],
+  "۱۷": [
+   {
+    "admin1": "West Azerbaijan"
+   }
+  ],
+  "۱۸": [
+   {
+    "admin1": "Hamadan"
+   }
+  ],
+  "۱۹": [
+   {
+    "admin1": "Kermanshah"
+   }
+  ],
+  "۲۰": [
+   {
+    "admin1": "Tehran",
+    "note": "Tehran city"
+   }
+  ],
+  "۲۱": [
+   {
+    "admin1": "Tehran",
+    "note": "Tehran province outside Tehran city (shared with Alborz)"
+   },
+   {
+    "admin1": "Alborz",
+    "note": "shared with Tehran province; Alborz split off in 2010"
+   }
+  ],
+  "۲۲": [
+   {
+    "admin1": "Tehran",
+    "note": "Tehran city"
+   }
+  ],
+  "۲۳": [
+   {
+    "admin1": "Isfahan"
+   }
+  ],
+  "۲۴": [
+   {
+    "admin1": "Khuzestan"
+   }
+  ],
+  "۲۵": [
+   {
+    "admin1": "East Azerbaijan"
+   }
+  ],
+  "۲۶": [
+   {
+    "admin1": "North Khorasan"
+   }
+  ],
+  "۲۷": [
+   {
+    "admin1": "West Azerbaijan"
+   }
+  ],
+  "۲۸": [
+   {
+    "admin1": "Hamadan"
+   }
+  ],
+  "۲۹": [
+   {
+    "admin1": "Kermanshah"
+   }
+  ],
+  "۳۰": [
+   {
+    "admin1": "Tehran",
+    "note": "Tehran province outside Tehran city (shared with Alborz)"
+   },
+   {
+    "admin1": "Alborz",
+    "note": "shared with Tehran province; Alborz split off in 2010"
+   }
+  ],
+  "۳۱": [
+   {
+    "admin1": "Lorestan"
+   }
+  ],
+  "۳۲": [
+   {
+    "admin1": "Razavi Khorasan"
+   },
+   {
+    "admin1": "North Khorasan",
+    "note": "only Bojnurd's original letter series (pre-2004 Khorasan codes)"
+   },
+   {
+    "admin1": "South Khorasan",
+    "note": "only Birjand's original letter series (pre-2004 Khorasan codes)"
+   }
+  ],
+  "۳۳": [
+   {
+    "admin1": "Tehran",
+    "note": "Tehran city"
+   }
+  ],
+  "۳۴": [
+   {
+    "admin1": "Khuzestan"
+   }
+  ],
+  "۳۵": [
+   {
+    "admin1": "East Azerbaijan"
+   }
+  ],
+  "۳۶": [
+   {
+    "admin1": "Razavi Khorasan"
+   }
+  ],
+  "۳۷": [
+   {
+    "admin1": "West Azerbaijan"
+   }
+  ],
+  "۳۸": [
+   {
+    "admin1": "Tehran",
+    "note": "Tehran province outside Tehran city (shared with Alborz)"
+   },
+   {
+    "admin1": "Alborz",
+    "note": "shared with Tehran province; Alborz split off in 2010"
+   }
+  ],
+  "۴۰": [
+   {
+    "admin1": "Tehran",
+    "note": "Tehran city"
+   }
+  ],
+  "۴۱": [
+   {
+    "admin1": "Lorestan"
+   }
+  ],
+  "۴۲": [
+   {
+    "admin1": "Razavi Khorasan"
+   },
+   {
+    "admin1": "North Khorasan",
+    "note": "only Bojnurd's original letter series (pre-2004 Khorasan codes)"
+   },
+   {
+    "admin1": "South Khorasan",
+    "note": "only Birjand's original letter series (pre-2004 Khorasan codes)"
+   }
+  ],
+  "۴۳": [
+   {
+    "admin1": "Isfahan"
+   }
+  ],
+  "۴۴": [
+   {
+    "admin1": "Tehran",
+    "note": "Tehran city"
+   }
+  ],
+  "۴۵": [
+   {
+    "admin1": "Kerman"
+   }
+  ],
+  "۴۶": [
+   {
+    "admin1": "Gilan"
+   }
+  ],
+  "۴۷": [
+   {
+    "admin1": "Markazi"
+   }
+  ],
+  "۴۸": [
+   {
+    "admin1": "Bushehr"
+   }
+  ],
+  "۴۹": [
+   {
+    "admin1": "Kohgiluyeh and Boyer-Ahmad"
+   }
+  ],
+  "۵۰": [
+   {
+    "admin1": "Tehran",
+    "note": "Tehran city"
+   }
+  ],
+  "۵۱": [
+   {
+    "admin1": "Kurdistan"
+   }
+  ],
+  "۵۲": [
+   {
+    "admin1": "South Khorasan"
+   }
+  ],
+  "۵۳": [
+   {
+    "admin1": "Isfahan"
+   }
+  ],
+  "۵۴": [
+   {
+    "admin1": "Yazd"
+   }
+  ],
+  "۵۵": [
+   {
+    "admin1": "Tehran",
+    "note": "Tehran city"
+   }
+  ],
+  "۵۶": [
+   {
+    "admin1": "Gilan"
+   }
+  ],
+  "۵۷": [
+   {
+    "admin1": "Markazi"
+   }
+  ],
+  "۵۸": [
+   {
+    "admin1": "Bushehr"
+   }
+  ],
+  "۵۹": [
+   {
+    "admin1": "Golestan"
+   }
+  ],
+  "۶۰": [
+   {
+    "admin1": "Tehran",
+    "note": "Tehran city"
+   }
+  ],
+  "۶۱": [
+   {
+    "admin1": "Kurdistan"
+   }
+  ],
+  "۶۲": [
+   {
+    "admin1": "Mazandaran"
+   }
+  ],
+  "۶۳": [
+   {
+    "admin1": "Fars"
+   }
+  ],
+  "۶۴": [
+   {
+    "admin1": "South Khorasan",
+    "note": "only Tabas County, letter ق, kept from its time in Yazd"
+   },
+   {
+    "admin1": "Yazd"
+   }
+  ],
+  "۶۵": [
+   {
+    "admin1": "Kerman"
+   }
+  ],
+  "۶۶": [
+   {
+    "admin1": "Tehran",
+    "note": "Tehran city"
+   }
+  ],
+  "۶۷": [
+   {
+    "admin1": "Isfahan"
+   }
+  ],
+  "۶۸": [
+   {
+    "admin1": "Tehran",
+    "note": "Tehran province outside Tehran city (shared with Alborz)"
+   },
+   {
+    "admin1": "Alborz",
+    "note": "shared with Tehran province; Alborz split off in 2010"
+   }
+  ],
+  "۶۹": [
+   {
+    "admin1": "Golestan"
+   }
+  ],
+  "۷۱": [
+   {
+    "admin1": "Chaharmahal and Bakhtiari"
+   }
+  ],
+  "۷۲": [
+   {
+    "admin1": "Mazandaran"
+   }
+  ],
+  "۷۳": [
+   {
+    "admin1": "Fars"
+   }
+  ],
+  "۷۴": [
+   {
+    "admin1": "Razavi Khorasan"
+   }
+  ],
+  "۷۵": [
+   {
+    "admin1": "Kerman"
+   }
+  ],
+  "۷۶": [
+   {
+    "admin1": "Gilan"
+   }
+  ],
+  "۷۷": [
+   {
+    "admin1": "Tehran",
+    "note": "Tehran city"
+   }
+  ],
+  "۷۸": [
+   {
+    "admin1": "Tehran",
+    "note": "Tehran province outside Tehran city (shared with Alborz)"
+   },
+   {
+    "admin1": "Alborz",
+    "note": "shared with Tehran province; Alborz split off in 2010"
+   }
+  ],
+  "۷۹": [
+   {
+    "admin1": "Qazvin"
+   }
+  ],
+  "۸۱": [
+   {
+    "admin1": "Chaharmahal and Bakhtiari"
+   }
+  ],
+  "۸۲": [
+   {
+    "admin1": "Mazandaran"
+   }
+  ],
+  "۸۳": [
+   {
+    "admin1": "Fars"
+   }
+  ],
+  "۸۴": [
+   {
+    "admin1": "Hormozgan"
+   }
+  ],
+  "۸۵": [
+   {
+    "admin1": "Sistan and Baluchestan"
+   }
+  ],
+  "۸۶": [
+   {
+    "admin1": "Semnan"
+   }
+  ],
+  "۸۷": [
+   {
+    "admin1": "Zanjan"
+   }
+  ],
+  "۸۸": [
+   {
+    "admin1": "Tehran",
+    "note": "Tehran city"
+   }
+  ],
+  "۸۹": [
+   {
+    "admin1": "Qazvin"
+   }
+  ],
+  "۹۱": [
+   {
+    "admin1": "Ardabil"
+   }
+  ],
+  "۹۲": [
+   {
+    "admin1": "Mazandaran"
+   }
+  ],
+  "۹۳": [
+   {
+    "admin1": "Fars"
+   }
+  ],
+  "۹۴": [
+   {
+    "admin1": "Hormozgan"
+   }
+  ],
+  "۹۵": [
+   {
+    "admin1": "Sistan and Baluchestan"
+   }
+  ],
+  "۹۶": [
+   {
+    "admin1": "Semnan"
+   }
+  ],
+  "۹۷": [
+   {
+    "admin1": "Zanjan"
+   }
+  ],
+  "۹۸": [
+   {
+    "admin1": "Ilam"
+   }
+  ],
+  "۹۹": [
+   {
+    "admin1": "Tehran",
+    "note": "Tehran city"
+   }
+  ]
+ }
+}

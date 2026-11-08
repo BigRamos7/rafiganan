@@ -1,0 +1,115 @@
+[
+ {
+  "kind": "plate",
+  "value": "63",
+  "expect": [
+   {
+    "admin1": "Fars"
+   }
+  ]
+ },
+ {
+  "kind": "plate",
+  "value": "۶۳",
+  "expect": [
+   {
+    "admin1": "Fars"
+   }
+  ]
+ },
+ {
+  "kind": "plate",
+  "value": "11",
+  "expect": [
+   {
+    "admin1": "Tehran"
+   }
+  ]
+ },
+ {
+  "kind": "plate",
+  "value": "21",
+  "expect": [
+   {
+    "admin1": "Tehran"
+   },
+   {
+    "admin1": "Alborz"
+   }
+  ]
+ },
+ {
+  "kind": "plate",
+  "value": "32",
+  "expect": [
+   {
+    "admin1": "Razavi Khorasan"
+   },
+   {
+    "admin1": "North Khorasan"
+   },
+   {
+    "admin1": "South Khorasan"
+   }
+  ]
+ },
+ {
+  "kind": "plate",
+  "value": "64",
+  "expect": [
+   {
+    "admin1": "South Khorasan"
+   },
+   {
+    "admin1": "Yazd"
+   }
+  ]
+ },
+ {
+  "kind": "plate",
+  "value": "39",
+  "expect": []
+ },
+ {
+  "kind": "plate",
+  "value": "12 B 345 63",
+  "expect": []
+ },
+ {
+  "kind": "area-code",
+  "value": "(021) 8888 1234",
+  "expect": [
+   {
+    "admin1": "Tehran"
+   }
+  ]
+ },
+ {
+  "kind": "area-code",
+  "value": "031 3222 0000",
+  "expect": [
+   {
+    "admin1": "Isfahan"
+   }
+  ]
+ },
+ {
+  "kind": "area-code",
+  "value": "0912 123 4567",
+  "expect": []
+ },
+ {
+  "kind": "area-code",
+  "value": "0817",
+  "expect": []
+ },
+ {
+  "kind": "area-code",
+  "value": "081",
+  "expect": [
+   {
+    "admin1": "Hamadan"
+   }
+  ]
+ }
+]

@@ -1,0 +1,98 @@
+{
+ "_meta": {
+  "kind": "area-code",
+  "normalize": {
+   "digits_only": true,
+   "ensure_prefix": "0"
+  },
+  "key_pattern": "^0[14-9](?=(\\d{6})?$)",
+  "usage": "landline in national form, 0 + area digit + six digits: 01 234567, 07-765432, (05) 123456, or just the code (07); drop a leading +961 and add the 0",
+  "miss_note": "not a Lebanese landline: a landline is 0 + one area digit + six digits; 03 xxxxxx and eight-digit 70/71/76/78/79/81 numbers are mobile; 02 is no longer used",
+  "source": [
+   "https://en.wikipedia.org/wiki/Telephone_numbers_in_Lebanon",
+   "Telecommunications Regulatory Authority, Current National Numbering Plan (cited by that article)"
+  ],
+  "license": "Derived from Wikipedia, CC BY-SA 4.0",
+  "count": 7,
+  "fetched": "2026-11-08"
+ },
+ "entries": {
+  "01": [
+   {
+    "admin1": "Beirut",
+    "note": "source: 'Beirut and its Metropolitan area'"
+   },
+   {
+    "admin1": "Mount Lebanon",
+    "admin2": "Baabda",
+    "unverified": true,
+    "note": "suburbs of the Beirut metropolitan area outside Beirut Governorate"
+   },
+   {
+    "admin1": "Mount Lebanon",
+    "admin2": "Matn",
+    "unverified": true,
+    "note": "suburbs of the Beirut metropolitan area outside Beirut Governorate"
+   }
+  ],
+  "04": [
+   {
+    "admin1": "Mount Lebanon",
+    "admin2": "Matn"
+   }
+  ],
+  "05": [
+   {
+    "admin1": "Mount Lebanon",
+    "admin2": "Baabda"
+   },
+   {
+    "admin1": "Mount Lebanon",
+    "admin2": "Aley"
+   },
+   {
+    "admin1": "Mount Lebanon",
+    "admin2": "Chouf"
+   }
+  ],
+  "06": [
+   {
+    "admin1": "North"
+   },
+   {
+    "admin1": "Akkar"
+   }
+  ],
+  "07": [
+   {
+    "admin1": "South"
+   },
+   {
+    "admin1": "Nabatieh",
+    "note": "source says 'South Lebanon', which in common use includes Nabatieh Governorate"
+   },
+   {
+    "admin1": "Mount Lebanon",
+    "note": "source: 'includes some towns on the southern part of Mount Lebanon'"
+   }
+  ],
+  "08": [
+   {
+    "admin1": "Beqaa"
+   },
+   {
+    "admin1": "Baalbek-Hermel"
+   }
+  ],
+  "09": [
+   {
+    "admin1": "Keserwan-Jbeil",
+    "admin2": "Keserwan"
+   },
+   {
+    "admin1": "Keserwan-Jbeil",
+    "admin2": "Byblos"
+   }
+  ]
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "_meta": {
+  "kind": "area-code",
+  "normalize": {
+   "digits_only": true,
+   "ensure_prefix": "0"
+  },
+  "key_pattern": "^0[1-8]\\d(?=(\\d{8})?$)",
+  "usage": "the two digits after the 0 of a landline: (021) 8888 1234, 031-3222 0000; drop a leading +98; convert Persian digits (۰۱۲۳۴۵۶۷۸۹) first",
+  "miss_note": "not a provincial landline code: 09xx are mobile, 099xx MVNO; 1xx/9xxx service numbers have no area",
+  "source": [
+   "https://en.wikipedia.org/wiki/Telephone_numbers_in_Iran"
+  ],
+  "license": "Derived from Wikipedia, CC BY-SA 4.0",
+  "count": 31,
+  "fetched": "2026-11-08"
+ },
+ "entries": {
+  "011": [
+   {
+    "admin1": "Mazandaran"
+   }
+  ],
+  "013": [
+   {
+    "admin1": "Gilan"
+   }
+  ],
+  "017": [
+   {
+    "admin1": "Golestan"
+   }
+  ],
+  "021": [
+   {
+    "admin1": "Tehran"
+   }
+  ],
+  "023": [
+   {
+    "admin1": "Semnan"
+   }
+  ],
+  "024": [
+   {
+    "admin1": "Zanjan"
+   }
+  ],
+  "025": [
+   {
+    "admin1": "Qom"
+   }
+  ],
+  "026": [
+   {
+    "admin1": "Alborz"
+   }
+  ],
+  "028": [
+   {
+    "admin1": "Qazvin"
+   }
+  ],
+  "031": [
+   {
+    "admin1": "Isfahan"
+   }
+  ],
+  "034": [
+   {
+    "admin1": "Kerman"
+   }
+  ],
+  "035": [
+   {
+    "admin1": "Yazd"
+   }
+  ],
+  "038": [
+   {
+    "admin1": "Chaharmahal and Bakhtiari"
+   }
+  ],
+  "041": [
+   {
+    "admin1": "East Azerbaijan"
+   }
+  ],
+  "044": [
+   {
+    "admin1": "West Azerbaijan"
+   }
+  ],
+  "045": [
+   {
+    "admin1": "Ardabil"
+   }
+  ],
+  "051": [
+   {
+    "admin1": "Razavi Khorasan"
+   }
+  ],
+  "054": [
+   {
+    "admin1": "Sistan and Baluchestan"
+   }
+  ],
+  "056": [
+   {
+    "admin1": "South Khorasan"
+   }
+  ],
+  "058": [
+   {
+    "admin1": "North Khorasan"
+   }
+  ],
+  "061": [
+   {
+    "admin1": "Khuzestan"
+   }
+  ],
+  "066": [
+   {
+    "admin1": "Lorestan"
+   }
+  ],
+  "071": [
+   {
+    "admin1": "Fars"
+   }
+  ],
+  "074": [
+   {
+    "admin1": "Kohgiluyeh and Boyer-Ahmad"
+   }
+  ],
+  "076": [
+   {
+    "admin1": "Hormozgan"
+   }
+  ],
+  "077": [
+   {
+    "admin1": "Bushehr"
+   }
+  ],
+  "081": [
+   {
+    "admin1": "Hamadan"
+   }
+  ],
+  "083": [
+   {
+    "admin1": "Kermanshah"
+   }
+  ],
+  "084": [
+   {
+    "admin1": "Ilam"
+   }
+  ],
+  "086": [
+   {
+    "admin1": "Markazi"
+   }
+  ],
+  "087": [
+   {
+    "admin1": "Kurdistan"
+   }
+  ]
+ }
+}

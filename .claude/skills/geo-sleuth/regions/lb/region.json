@@ -1,0 +1,20 @@
+{
+ "code": "LB",
+ "name": "Lebanon",
+ "names": ["Lebanon", "لبنان", "Liban", "Lebanese Republic", "الجمهورية اللبنانية", "LB"],
+ "status": "community",
+ "maintainers": ["@BigRamos7"],
+ "admin_levels": {"4": "admin1", "5": "admin2"},
+ "level_names": {"admin1": "governorate (muhafazah)", "admin2": "district (qadaa / caza)"},
+ "name_suffixes": ["Governorate", "District", "محافظة", "قضاء"],
+ "admin_table": "data/admin.json",
+ "lookups": {
+  "plate": {"file": "data/plates.json"},
+  "area-code": {"file": "data/area_codes.json"}
+ },
+ "docs": ["clues.md"],
+ "services": {
+  "poi": {"sources": "osm", "country": "lb"},
+  "street_view": "gsv.py"
+ }
+}

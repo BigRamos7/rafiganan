@@ -1,0 +1,74 @@
+[
+ {
+  "kind": "plate",
+  "value": "11 A 12345",
+  "expect": [
+   {
+    "admin1": "Baghdad"
+   }
+  ]
+ },
+ {
+  "kind": "plate",
+  "value": "22",
+  "expect": [
+   {
+    "admin1": "Erbil"
+   }
+  ]
+ },
+ {
+  "kind": "plate",
+  "value": "23 B 45678",
+  "expect": [
+   {
+    "admin1": "Halabja"
+   }
+  ]
+ },
+ {
+  "kind": "plate",
+  "value": "30 A 12345",
+  "expect": []
+ },
+ {
+  "kind": "area-code",
+  "value": "01 7123456",
+  "expect": [
+   {
+    "admin1": "Baghdad"
+   }
+  ]
+ },
+ {
+  "kind": "area-code",
+  "value": "(040) 123456",
+  "expect": [
+   {
+    "admin1": "Basra"
+   }
+  ]
+ },
+ {
+  "kind": "area-code",
+  "value": "053 3123456",
+  "expect": [
+   {
+    "admin1": "Sulaymaniyah"
+   },
+   {
+    "admin1": "Halabja"
+   }
+  ]
+ },
+ {
+  "kind": "area-code",
+  "value": "0770 123 4567",
+  "expect": []
+ },
+ {
+  "kind": "area-code",
+  "value": "099 123456",
+  "expect": []
+ }
+]

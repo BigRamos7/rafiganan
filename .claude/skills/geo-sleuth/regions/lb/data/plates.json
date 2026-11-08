@@ -1,0 +1,74 @@
+{
+ "_meta": {
+  "kind": "plate",
+  "normalize": {
+   "strip": " -·.",
+   "upper": true
+  },
+  "key_pattern": "^[A-Z]{1,2}(?=\\d+$)",
+  "usage": "the Latin letter before the number on a private plate (B 123456, Z 4567) or just the letter",
+  "note": "The letter is the office where the car was registered, not where the photo was taken.",
+  "miss_note": "A (pre-1998 numbers, no region), M (motorcycles, commercial, institutions), P (public transport), J, R, MP, C, D (judges, clergy, MPs, consular, diplomatic) carry no region",
+  "source": [
+   "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Lebanon (article tagged 'unreferenced')"
+  ],
+  "license": "Derived from Wikipedia, CC BY-SA 4.0",
+  "count": 9,
+  "fetched": "2026-11-08"
+ },
+ "entries": {
+  "B": [
+   {
+    "admin1": "Beirut"
+   }
+  ],
+  "Y": [
+   {
+    "admin1": "Mount Lebanon",
+    "admin2": "Aley"
+   }
+  ],
+  "G": [
+   {
+    "admin1": "Keserwan-Jbeil",
+    "admin2": "Keserwan",
+    "note": "Jounieh office; the source lists it under Mount Lebanon, which held Keserwan before 2017"
+   }
+  ],
+  "N": [
+   {
+    "admin1": "Nabatieh"
+   }
+  ],
+  "O": [
+   {
+    "admin1": "Mount Lebanon",
+    "note": "Ouzai office, southern suburbs of Beirut"
+   }
+  ],
+  "S": [
+   {
+    "admin1": "South",
+    "note": "Sidon office"
+   }
+  ],
+  "T": [
+   {
+    "admin1": "North",
+    "note": "Tripoli office"
+   }
+  ],
+  "K": [
+   {
+    "admin1": "Baalbek-Hermel",
+    "note": "Baalbek office; the source lists Beqaa (before Baalbek-Hermel was split off) and marks the letter 'not in use'"
+   }
+  ],
+  "Z": [
+   {
+    "admin1": "Beqaa",
+    "note": "Zahlé office"
+   }
+  ]
+ }
+}

@@ -1,0 +1,125 @@
+{
+ "_meta": {
+  "kind": "area-code",
+  "normalize": {
+   "digits_only": true,
+   "ensure_prefix": "0"
+  },
+  "key_pattern": "^0(?:1(?=(\\d{7})?$)|[2-6]\\d(?=(\\d{6,7})?$))",
+  "usage": "landline in national form: 01 7123456, (040) 123456, 066-2223344; drop a leading +964",
+  "miss_note": "not an Iraqi landline area: 07xx numbers are mobile (Korek 750/751, Alkafeel 760, Asiacell 77x, Zain 78x/790)",
+  "source": [
+   "https://en.wikipedia.org/wiki/Telephone_numbers_in_Iraq"
+  ],
+  "license": "Derived from Wikipedia, CC BY-SA 4.0",
+  "count": 18,
+  "fetched": "2026-11-08"
+ },
+ "entries": {
+  "01": [
+   {
+    "admin1": "Baghdad"
+   }
+  ],
+  "021": [
+   {
+    "admin1": "Saladin",
+    "note": "Tikrit"
+   }
+  ],
+  "023": [
+   {
+    "admin1": "Wasit",
+    "note": "Kut"
+   }
+  ],
+  "024": [
+   {
+    "admin1": "Al Anbar",
+    "note": "Ramadi"
+   }
+  ],
+  "025": [
+   {
+    "admin1": "Diyala",
+    "note": "Baqubah"
+   }
+  ],
+  "030": [
+   {
+    "admin1": "Babil",
+    "note": "Hillah"
+   }
+  ],
+  "032": [
+   {
+    "admin1": "Karbala"
+   }
+  ],
+  "033": [
+   {
+    "admin1": "Najaf"
+   }
+  ],
+  "036": [
+   {
+    "admin1": "Al-Qadisiyyah",
+    "note": "Diwaniyah"
+   }
+  ],
+  "037": [
+   {
+    "admin1": "Muthanna",
+    "note": "Samawah"
+   }
+  ],
+  "040": [
+   {
+    "admin1": "Basra"
+   }
+  ],
+  "042": [
+   {
+    "admin1": "Dhi Qar",
+    "note": "Nasiriyah"
+   }
+  ],
+  "043": [
+   {
+    "admin1": "Maysan",
+    "note": "Amarah"
+   }
+  ],
+  "050": [
+   {
+    "admin1": "Kirkuk"
+   }
+  ],
+  "053": [
+   {
+    "admin1": "Sulaymaniyah"
+   },
+   {
+    "admin1": "Halabja",
+    "unverified": true,
+    "note": "Halabja was split from Sulaymaniyah; the source lists no separate code"
+   }
+  ],
+  "060": [
+   {
+    "admin1": "Nineveh",
+    "note": "Mosul"
+   }
+  ],
+  "062": [
+   {
+    "admin1": "Duhok"
+   }
+  ],
+  "066": [
+   {
+    "admin1": "Erbil"
+   }
+  ]
+ }
+}

@@ -1,0 +1,236 @@
+{
+ "_meta": {
+  "source": [
+   "https://en.wikipedia.org/wiki/Governorates_of_Iraq",
+   "Arabic and Sorani names: the ar.wikipedia and ckb.wikipedia interlanguage links of those articles"
+  ],
+  "fetched": "2026-11-08",
+  "license": "Derived from Wikipedia, CC BY-SA 4.0",
+  "count": 19
+ },
+ "items": [
+  {
+   "name": "Al Anbar",
+   "code": "IQ-AN",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "محافظة الأنبار",
+    "پارێزگای ئەنبار",
+    "Al Anbar Governorate",
+    "Anbar"
+   ]
+  },
+  {
+   "name": "Babil",
+   "code": "IQ-BB",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "محافظة بابل",
+    "پارێزگای بابل",
+    "Babil Governorate",
+    "Babylon"
+   ]
+  },
+  {
+   "name": "Baghdad",
+   "code": "IQ-BG",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "محافظة بغداد",
+    "پارێزگای بەغدا",
+    "Baghdad Governorate"
+   ]
+  },
+  {
+   "name": "Basra",
+   "code": "IQ-BA",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "محافظة البصرة",
+    "پارێزگای بەسرە",
+    "Basra Governorate",
+    "Basrah"
+   ]
+  },
+  {
+   "name": "Dhi Qar",
+   "code": "IQ-DQ",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "محافظة ذي قار",
+    "پارێزگای زیقار",
+    "Dhi Qar Governorate"
+   ]
+  },
+  {
+   "name": "Al-Qadisiyyah",
+   "code": "IQ-QA",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "محافظة القادسية",
+    "پارێزگای قادسیە",
+    "Al-Qadisiyyah Governorate",
+    "Qadisiyyah",
+    "Diwaniyah"
+   ]
+  },
+  {
+   "name": "Diyala",
+   "code": "IQ-DI",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "محافظة ديالى",
+    "پارێزگای دیالە",
+    "Diyala Governorate"
+   ]
+  },
+  {
+   "name": "Duhok",
+   "code": "IQ-DA",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "محافظة دهوك",
+    "پارێزگای دھۆک",
+    "Duhok Governorate",
+    "Dohuk"
+   ]
+  },
+  {
+   "name": "Erbil",
+   "code": "IQ-AR",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "محافظة أربيل",
+    "پارێزگای ھەولێر",
+    "Erbil Governorate",
+    "Arbil",
+    "Hewler"
+   ]
+  },
+  {
+   "name": "Karbala",
+   "code": "IQ-KA",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "محافظة كربلاء",
+    "پارێزگای کەربەلا",
+    "Karbala Governorate"
+   ]
+  },
+  {
+   "name": "Kirkuk",
+   "code": "IQ-KI",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "محافظة كركوك",
+    "پارێزگای کەرکووک",
+    "Kirkuk Governorate"
+   ]
+  },
+  {
+   "name": "Maysan",
+   "code": "IQ-MA",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "محافظة ميسان",
+    "پارێزگای میسان",
+    "Maysan Governorate"
+   ]
+  },
+  {
+   "name": "Muthanna",
+   "code": "IQ-MU",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "محافظة المثنى",
+    "پارێزگای موسەنا",
+    "Muthanna Governorate",
+    "Al Muthanna"
+   ]
+  },
+  {
+   "name": "Najaf",
+   "code": "IQ-NA",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "محافظة النجف",
+    "پارێزگای نەجەف",
+    "Najaf Governorate"
+   ]
+  },
+  {
+   "name": "Nineveh",
+   "code": "IQ-NI",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "محافظة نينوى",
+    "پارێزگای نەینەوا",
+    "Nineveh Governorate",
+    "Ninawa"
+   ]
+  },
+  {
+   "name": "Saladin",
+   "code": "IQ-SD",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "محافظة صلاح الدين",
+    "پارێزگای سەلاحەددین",
+    "Saladin Governorate",
+    "Salah ad Din",
+    "Salah Al-Din"
+   ]
+  },
+  {
+   "name": "Sulaymaniyah",
+   "code": "IQ-SU",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "محافظة السليمانية",
+    "پارێزگای سلێمانی",
+    "Sulaymaniyah Governorate",
+    "Sulaimaniya",
+    "Slemani"
+   ]
+  },
+  {
+   "name": "Wasit",
+   "code": "IQ-WA",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "محافظة واسط",
+    "پارێزگای واسیت",
+    "Wasit Governorate"
+   ]
+  },
+  {
+   "name": "Halabja",
+   "code": "",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "محافظة حلبجة",
+    "پارێزگای ھەڵەبجە",
+    "Halabja Governorate"
+   ]
+  }
+ ]
+}

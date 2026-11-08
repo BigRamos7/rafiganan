@@ -1,0 +1,145 @@
+[
+ {
+  "kind": "area-code",
+  "value": "07 765432",
+  "expect": [
+   {
+    "admin1": "South"
+   },
+   {
+    "admin1": "Nabatieh"
+   },
+   {
+    "admin1": "Mount Lebanon"
+   }
+  ]
+ },
+ {
+  "kind": "area-code",
+  "value": "09 123456",
+  "expect": [
+   {
+    "admin1": "Keserwan-Jbeil",
+    "admin2": "Keserwan"
+   },
+   {
+    "admin1": "Keserwan-Jbeil",
+    "admin2": "Byblos"
+   }
+  ]
+ },
+ {
+  "kind": "area-code",
+  "value": "(05) 123456",
+  "expect": [
+   {
+    "admin1": "Mount Lebanon",
+    "admin2": "Baabda"
+   },
+   {
+    "admin1": "Mount Lebanon",
+    "admin2": "Aley"
+   },
+   {
+    "admin1": "Mount Lebanon",
+    "admin2": "Chouf"
+   }
+  ]
+ },
+ {
+  "kind": "area-code",
+  "value": "08-123456",
+  "expect": [
+   {
+    "admin1": "Beqaa"
+   },
+   {
+    "admin1": "Baalbek-Hermel"
+   }
+  ]
+ },
+ {
+  "kind": "area-code",
+  "value": "03 123456",
+  "expect": []
+ },
+ {
+  "kind": "area-code",
+  "value": "71 123456",
+  "expect": []
+ },
+ {
+  "kind": "area-code",
+  "value": "07",
+  "expect": [
+   {
+    "admin1": "South"
+   },
+   {
+    "admin1": "Nabatieh"
+   },
+   {
+    "admin1": "Mount Lebanon"
+   }
+  ]
+ },
+ {
+  "kind": "area-code",
+  "value": "81 234567",
+  "expect": []
+ },
+ {
+  "kind": "area-code",
+  "value": "08 812345",
+  "expect": [
+   {
+    "admin1": "Beqaa"
+   },
+   {
+    "admin1": "Baalbek-Hermel"
+   }
+  ]
+ },
+ {
+  "kind": "plate",
+  "value": "N 123456",
+  "expect": [
+   {
+    "admin1": "Nabatieh"
+   }
+  ]
+ },
+ {
+  "kind": "plate",
+  "value": "B 4567",
+  "expect": [
+   {
+    "admin1": "Beirut"
+   }
+  ]
+ },
+ {
+  "kind": "plate",
+  "value": "Z",
+  "expect": []
+ },
+ {
+  "kind": "plate",
+  "value": "Z123",
+  "expect": [
+   {
+    "admin1": "Beqaa"
+   }
+  ]
+ },
+ {
+  "kind": "plate",
+  "value": "M 123456",
+  "expect": []
+ },
+ {
+  "kind": "plate",
+  "value": "MP 12",
+  "expect": []
+ }
+]

@@ -1,0 +1,361 @@
+{
+ "_meta": {
+  "source": [
+   "https://en.wikipedia.org/wiki/Provinces_of_Iran",
+   "Persian names: the fa.wikipedia interlanguage links of those articles"
+  ],
+  "fetched": "2026-11-08",
+  "license": "Derived from Wikipedia, CC BY-SA 4.0",
+  "count": 31
+ },
+ "items": [
+  {
+   "name": "Alborz",
+   "code": "",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "استان البرز",
+    "البرز",
+    "Alborz province"
+   ]
+  },
+  {
+   "name": "Ardabil",
+   "code": "",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "استان اردبیل",
+    "اردبیل",
+    "Ardabil province"
+   ]
+  },
+  {
+   "name": "Bushehr",
+   "code": "",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "استان بوشهر",
+    "بوشهر",
+    "Bushehr province"
+   ]
+  },
+  {
+   "name": "Chaharmahal and Bakhtiari",
+   "code": "",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "استان چهارمحال و بختیاری",
+    "چهارمحال و بختیاری",
+    "Chaharmahal and Bakhtiari province",
+    "Chahar Mahaal and Bakhtiari"
+   ]
+  },
+  {
+   "name": "East Azerbaijan",
+   "code": "",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "استان آذربایجان شرقی",
+    "آذربایجان شرقی",
+    "East Azerbaijan province"
+   ]
+  },
+  {
+   "name": "Fars",
+   "code": "",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "استان فارس",
+    "فارس",
+    "Fars province"
+   ]
+  },
+  {
+   "name": "Gilan",
+   "code": "",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "استان گیلان",
+    "گیلان",
+    "Gilan province"
+   ]
+  },
+  {
+   "name": "Golestan",
+   "code": "",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "استان گلستان",
+    "گلستان",
+    "Golestan province"
+   ]
+  },
+  {
+   "name": "Hamadan",
+   "code": "",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "استان همدان",
+    "همدان",
+    "Hamadan province",
+    "Hamedan"
+   ]
+  },
+  {
+   "name": "Hormozgan",
+   "code": "",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "استان هرمزگان",
+    "هرمزگان",
+    "Hormozgan province"
+   ]
+  },
+  {
+   "name": "Ilam",
+   "code": "",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "استان ایلام",
+    "ایلام",
+    "Ilam province"
+   ]
+  },
+  {
+   "name": "Isfahan",
+   "code": "",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "استان اصفهان",
+    "اصفهان",
+    "Isfahan province",
+    "Esfahan"
+   ]
+  },
+  {
+   "name": "Kerman",
+   "code": "",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "استان کرمان",
+    "کرمان",
+    "Kerman province"
+   ]
+  },
+  {
+   "name": "Kermanshah",
+   "code": "",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "استان کرمانشاه",
+    "کرمانشاه",
+    "Kermanshah province"
+   ]
+  },
+  {
+   "name": "Khuzestan",
+   "code": "",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "استان خوزستان",
+    "خوزستان",
+    "Khuzestan province"
+   ]
+  },
+  {
+   "name": "Kohgiluyeh and Boyer-Ahmad",
+   "code": "",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "استان کهگیلویه و بویراحمد",
+    "کهگیلویه و بویراحمد",
+    "Kohgiluyeh and Boyer-Ahmad province",
+    "Kohgiluye and Boyer-Ahmad"
+   ]
+  },
+  {
+   "name": "Kurdistan",
+   "code": "",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "استان کردستان",
+    "کردستان",
+    "Kurdistan province",
+    "Kordestan"
+   ]
+  },
+  {
+   "name": "Lorestan",
+   "code": "",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "استان لرستان",
+    "لرستان",
+    "Lorestan province"
+   ]
+  },
+  {
+   "name": "Markazi",
+   "code": "",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "استان مرکزی",
+    "مرکزی",
+    "Markazi province"
+   ]
+  },
+  {
+   "name": "Mazandaran",
+   "code": "",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "استان مازندران",
+    "مازندران",
+    "Mazandaran province"
+   ]
+  },
+  {
+   "name": "North Khorasan",
+   "code": "",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "استان خراسان شمالی",
+    "خراسان شمالی",
+    "North Khorasan province"
+   ]
+  },
+  {
+   "name": "Qazvin",
+   "code": "",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "استان قزوین",
+    "قزوین",
+    "Qazvin province"
+   ]
+  },
+  {
+   "name": "Qom",
+   "code": "",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "استان قم",
+    "قم",
+    "Qom province"
+   ]
+  },
+  {
+   "name": "Razavi Khorasan",
+   "code": "",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "استان خراسان رضوی",
+    "خراسان رضوی",
+    "Razavi Khorasan province",
+    "Khorasan Razavi"
+   ]
+  },
+  {
+   "name": "Semnan",
+   "code": "",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "استان سمنان",
+    "سمنان",
+    "Semnan province"
+   ]
+  },
+  {
+   "name": "Sistan and Baluchestan",
+   "code": "",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "استان سیستان و بلوچستان",
+    "سیستان و بلوچستان",
+    "Sistan and Baluchestan province",
+    "Sistan and Baluchistan"
+   ]
+  },
+  {
+   "name": "South Khorasan",
+   "code": "",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "استان خراسان جنوبی",
+    "خراسان جنوبی",
+    "South Khorasan province"
+   ]
+  },
+  {
+   "name": "Tehran",
+   "code": "",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "استان تهران",
+    "تهران",
+    "Tehran province"
+   ]
+  },
+  {
+   "name": "West Azerbaijan",
+   "code": "",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "استان آذربایجان غربی",
+    "آذربایجان غربی",
+    "West Azerbaijan province"
+   ]
+  },
+  {
+   "name": "Yazd",
+   "code": "",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "استان یزد",
+    "یزد",
+    "Yazd province"
+   ]
+  },
+  {
+   "name": "Zanjan",
+   "code": "",
+   "level": 4,
+   "parent": "",
+   "aliases": [
+    "استان زنجان",
+    "زنجان",
+    "Zanjan province"
+   ]
+  }
+ ]
+}

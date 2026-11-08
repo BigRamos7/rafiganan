@@ -1,0 +1,20 @@
+{
+ "code": "IQ",
+ "name": "Iraq",
+ "names": ["Iraq", "العراق", "عێراق", "Republic of Iraq", "IQ"],
+ "status": "community",
+ "maintainers": ["@BigRamos7"],
+ "admin_levels": {"4": "admin1", "6": "admin2"},
+ "level_names": {"admin1": "governorate (muhafazah)", "admin2": "district (qadha)"},
+ "name_suffixes": ["Governorate", "محافظة", "پارێزگای"],
+ "admin_table": "data/admin.json",
+ "lookups": {
+  "plate": {"file": "data/plates.json"},
+  "area-code": {"file": "data/area_codes.json"}
+ },
+ "docs": ["clues.md"],
+ "services": {
+  "poi": {"sources": "osm", "country": "iq"},
+  "street_view": "gsv.py"
+ }
+}
