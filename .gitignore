@@ -1,2 +1,6 @@
 # Local Netlify folder
 .netlify
+
+# geo-sleuth working files
+.geo-cache/
+__pycache__/

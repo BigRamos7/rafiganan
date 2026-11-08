@@ -1,0 +1,1 @@
+Vendored from https://github.com/Oldcircle/geo-sleuth at commit 5aeec41 (reviewed 2026-11-08).
