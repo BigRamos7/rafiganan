@@ -163,6 +163,7 @@ Use English for tool messages, report headings and generated labels. Preserve so
 
 - Python 3.10+, `uv`, and `curl`. Always use `uv run ${CLAUDE_SKILL_DIR}/scripts/xxx.py`; each script declares its dependencies. `scripts/` in references is relative to this skill directory.
 - On first setup or after a runtime failure, run `uv run ${CLAUDE_SKILL_DIR}/scripts/doctor.py`; add `--network` to check service reachability. Read the English checks and fixes before starting an expensive scan. It uploads no photos and does not load ML models.
+- Local setting: reverse image search defaults to Yandex only, and keyword search to Bing only; Baidu, Baidu Images and Sogou are off because the owner's cases are in the Middle East. Don't add Baidu back unless the user asks (`--engines baidu,yandex`).
 - Reverse image search uses local Google Chrome, with automatic fallback to Playwright Chromium (`uvx playwright install chromium`). If neither starts, use `intake.py --no-rev` and report the skipped search. OCR prefers Apple Vision on macOS and uses RapidOCR elsewhere or as a fallback.
 - `match.py` and `sat_scan.py` install ML dependencies and download model weights on first use. Allow extra time and disk space.
 - Cache goes to `.geo-cache/` in the current directory; the candidate board is `board.json` in the current directory. Script list and data sources: `references/data-sources.md`.

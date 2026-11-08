@@ -133,7 +133,7 @@ def main() -> None:
     ap.add_argument("photo")
     ap.add_argument("--out-dir", type=Path, required=True)
     ap.add_argument("--box", action="append", help="x0,y0,x1,y1: tight-crop variant, repeatable")
-    ap.add_argument("--engines", default="baidu,yandex")
+    ap.add_argument("--engines", default="yandex")   # local default: Baidu off (not relevant for the Middle East); add it back with --engines baidu,yandex
     ap.add_argument("--exclude", help="words to exclude from reverse image search results (for blind tests)")
     ap.add_argument("--no-rev", action="store_true")
     ap.add_argument("--no-ocr", action="store_true")
