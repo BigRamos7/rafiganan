@@ -126,7 +126,7 @@ class NetworkTests(unittest.TestCase):
                 if any(str(part).endswith("revimg.py") for part in cmd):
                     return run(cmd, **kwargs)
                 return original([sys.executable, *cmd[2:]], **kwargs)
-            with patch.object(intake, "_run", side_effect=local_or_search), patch.object(sys, "argv", ["intake.py", str(photo), "--out-dir", str(root / "out"), "--no-ocr", "--max-variants", "1", "--proxy", "direct"]):
+            with patch.object(intake, "_run", side_effect=local_or_search), patch.object(sys, "argv", ["intake.py", str(photo), "--out-dir", str(root / "out"), "--no-ocr", "--max-variants", "1", "--proxy", "direct", "--engines", "baidu,yandex"]):
                 intake.main()
             self.assertEqual(len(commands), 2)
             for cmd in commands:
@@ -1309,6 +1309,12 @@ class RevimgInputTests(unittest.TestCase):
                 code = e.code
         return code, err.getvalue()
 
+    def test_local_default_is_yandex_only(self):
+        # local setting: Baidu is off unless asked for with --engines baidu,yandex
+        raw, page = self._unreadable()
+        (code, err), sent, launch = self._search(lambda: self._main(raw, "--out-dir", self.out))
+        self.assertEqual(sorted(f.name for f in self.out.iterdir()), ["IMG_1_yandex.json"])
+
     def test_names_are_unique_without_regard_to_case(self):
         self.assertEqual(revimg._names([Path("photo.jpg"), Path("v/left_crop.jpg")]), ["photo", "left_crop"])
         self.assertEqual(revimg._names([Path("a/photo.jpg"), Path("b/PHOTO.png"), Path("c/02_photo.jpg"), Path("x.jpg")]),
@@ -1347,7 +1353,7 @@ class RevimgInputTests(unittest.TestCase):
     def test_cli_exits_2_naming_each_unreadable_input(self):
         raw, page = self._unreadable()
         good = self._solid("red", self.d / "good.jpg")
-        (code, err), sent, _ = self._search(lambda: self._main(raw, page, good, "--out-dir", self.out))
+        (code, err), sent, _ = self._search(lambda: self._main(raw, page, good, "--out-dir", self.out, "--engines", "baidu,yandex"))
         self.assertEqual(code, 2)
         self.assertIn("2 of 3 images could not be read and were not uploaded", err)
         self.assertIn(f"{raw} (camera RAW", err)
@@ -1356,7 +1362,7 @@ class RevimgInputTests(unittest.TestCase):
 
     def test_cli_with_only_unreadable_inputs_starts_no_browser(self):
         raw, page = self._unreadable()
-        (code, err), sent, launch = self._search(lambda: self._main(raw, page, "--out-dir", self.out))
+        (code, err), sent, launch = self._search(lambda: self._main(raw, page, "--out-dir", self.out, "--engines", "baidu,yandex"))
         self.assertEqual(code, 2)
         self.assertEqual(launch.await_count, 0)
         self.assertEqual(sent, {"baidu": [], "yandex": []})
